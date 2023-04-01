@@ -29,49 +29,49 @@ Así mismo tenemos un archivo por cada fase del modelo:
 ## EDA
 
 Hacemos una visualización de los datos:
-![datos](/imagenes/datos_head.jpg)
+![datos](/imagenes2/datos_head.jpg)
 
 Hacemos que la variable id sea el index.
 
 Vamos a empezar a estudiar el dataframe. Visualizamos el tipo de datos.
-![info](/imagenes/info.jpg)
+![info](/imagenes2/info.jpg)
 
 No tenemos nulos y vemos que las variables "cut", "color" y "clarity" son categ´ricas mientras el resto son numéricas.
 
 En "describe" nos interesa fijarnos en la media y el 50% para ver la dispersión. Si hubiera mucha diferencia veríamos que tenemos muchos outliers. 
 
-![describe](/imagenes/describe.jpg)
+![describe](/imagenes2/describe.jpg)
 
 En este caso los valores son bastante parecidos.
 
-![duplicados](/imagenes/duplicados.jpg)
+![duplicados](/imagenes2/duplicados.jpg)
 
 Tenemos 85 duplicados. Nos creamos un dataframe con ellos para ver sus valores
-![df_duplicados](/imagenes/df_duplicados.jpg)
+![df_duplicados](/imagenes2/df_duplicados.jpg)
 
 
 Lo siguiente que haremos es visualizar la relación que tiene la variable respuesta con el resto de variables numéricas:
 
-![scaterplot](/imagenes/scaterplot.jpg)
+![scaterplot](/imagenes2/scaterplot.jpg)
 
 Vemos que con carat y x guarda una relación positva bastante marcada, pero para asegurarnos vamos a hacer un heatmap:
 
-![heatmap](/imagenes/heatmap.jpg)
+![heatmap](/imagenes2/heatmap.jpg)
 
 Carat, x, y, z son las variables con mayor relación.
 
 Vamos a ver las variables categóricas:
 
-![boxplot_categoricas](/imagenes/boxplot_categoricas.jpg)
+![boxplot_categoricas](/imagenes2/boxplot_categoricas.jpg)
 
 En este gráfico parece que mantienen un orden. Vamos a ver la media de precio por variable para ver si es cierto o no:
 
-![barplot](/imagenes/barplot.jpg)
+![barplot](/imagenes2/barplot.jpg)
 
 En este gráfico vemos que no guardan un orden muy claro.
 
 Vamos a ver los outliers que tenemos:
-![outliers](/imagenes/outliers.jpg)
+![outliers](/imagenes2/outliers.jpg)
 
 Vemos que hay valores 0 en x, y, z lo cual es imposible, dado que representan medidas de los diamates.Los eliminamos de nuestro dataframe y pasamos al preprocesamiento.
 
@@ -89,16 +89,16 @@ Ajustamos los parámetros y hacemos un Gradient Boosting Regressor que nos da la
 
 
 
-![metricas](/imagenes/metricas.jpg)
+![metricas](/imagenes2/metricas.jpg)
 
 ### COMPARACIÓN OTROS MODELOS:
 
 
 
-![dt2](/imagenes/dt2.jpg)
-![dt1](/imagenes/dt1.jpg)
-![dt3](/imagenes/dt3.jpg)
-![gb](/imagenes/gb.jpg)
+![dt2](/imagenes2/dt2.jpg)
+![dt1](/imagenes2/dt1.jpg)
+![dt3](/imagenes2/dt3.jpg)
+![gb](/imagenes2/gb.jpg)
 
 
 
