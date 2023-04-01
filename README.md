@@ -100,4 +100,6 @@ Ajustamos los parámetros y hacemos un Gradient Boosting Regressor que nos da la
 ![dt3](imagenes/dt3.jpg)
 ![gb](imagenes/gb.jpg)
 
+![dt3](imagenes/dt3.jpg)
+
 
